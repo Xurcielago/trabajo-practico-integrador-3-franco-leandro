@@ -44,3 +44,5 @@ export const AppRouter = ({ isAuth, user, setUser, onLogout }) => {
     </BrowserRouter>
   );
 };
+
+export default AppRouter;
