@@ -8,7 +8,7 @@ const Navbar = ({ isAuth, onLogout }) => {
           to={isAuth ? "/home" : "/login"}
           className="text-white text-2xl font-bold"
         >
-          TaskApp
+          Trabajo Práctico Integrador III
         </Link>
 
         <div className="space-x-4">

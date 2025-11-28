@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useForm } from "../../hooks/userForm.js";
+import { useForm } from "../../hooks/useForm.js";
 
 export const Login = ({ setUser }) => {
   const { username, password, onInputChange, onResetForm } = useForm({
