@@ -37,7 +37,6 @@ function App() {
         method: "POST",
         credentials: "include",
       });
-
       setUser(null);
     } catch (error) {
       console.error("Error al cerrar sesión:", error);
